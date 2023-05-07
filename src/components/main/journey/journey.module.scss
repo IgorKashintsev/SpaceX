@@ -1,0 +1,71 @@
+.journey {
+  margin-left: 38px;
+  margin-top: 104px;
+  color: #ffffff;
+  @media (max-width: 900px) {
+    margin-top: 40px;
+  }
+  &_h1 {
+    font-family: 'MuseoSansCyrl700';
+    font-size: 57px;
+    letter-spacing: 0.01em;
+    background: linear-gradient(to right, #ffffff 15%, #ff3f04 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    max-height: 62px;
+    max-width: 430px;
+    @media (max-width: 680px) {
+      font-size: 35px;
+      max-width: 302px;
+    }
+  }
+  &_p {
+    font-family: 'MuseoSansCyrl500';
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    background: linear-gradient(to right, #ffffff 10%, #fd9373 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    max-width: 240px;
+  }
+  &_button {
+    font-family: 'MuseoSansCyrl100';
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 180px;
+    height: 35px;
+    margin-top: 86px;
+    border: none;
+    background: none;
+    color: #bdbdbd;
+    border: 1px solid;
+    border-image: linear-gradient(12deg, #0b4ba5 7%, #0b121b 56%, #193a74 80%);
+    border-image-slice: 1;
+    padding-top: 7px;
+    cursor: pointer;
+    @media (max-width: 900px) {
+      margin-top: 40px;
+    }
+    &_img1 {
+      margin-left: -16px;
+      margin-top: 8px;
+    }
+    &_img2 {
+      margin-right: -16px;
+      margin-top: -23px;
+    }
+    &:hover {
+      color: #ebebeb;
+    }
+  }
+  &_vector {
+    margin-top: -19px;
+    margin-left: 181px;
+    @media (max-width: 1245px) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body_background {
+  min-height: 965px;
+  background-color: black;
+  background-image: url(/public/images/space_star_wallpaper_026_full.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.container {
+  max-width: 1245px;
+  margin: 0 auto;
+  font-family: 'MuseoSansCyrl300';
+}
+@font-face {
+  font-family: 'MuseoSansCyrl100';
+  src: url('/public/fonts/MuseoSansCyrl100.otf') format('otf'),
+       url('/public/fonts/MuseoSansCyrl100.woff') format('woff'),
+       url('/public/fonts/MuseoSansCyrl100.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl300';
+  src: url('/public/fonts/MuseoSansCyrl300.otf') format('otf'),
+       url('/public/fonts/MuseoSansCyrl300.woff') format('woff'),
+       url('/public/fonts/MuseoSansCyrl300.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl500';
+  src: url('/public/fonts/MuseoSansCyrl500.otf') format('otf'),
+       url('/public/fonts/MuseoSansCyrl500.woff') format('woff'),
+       url('/public/fonts/MuseoSansCyrl500.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl700';
+  src: url('/public/fonts/MuseoSansCyrl700.otf') format('otf'),
+       url('/public/fonts/MuseoSansCyrl700.woff') format('woff'),
+       url('/public/fonts/MuseoSansCyrl700.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
